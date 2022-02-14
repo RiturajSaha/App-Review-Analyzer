@@ -12,16 +12,14 @@ Below are the screenshots of the application:
 <p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/3.png" height=500 width="800"></p>
 <p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/4.png" height=500 width="800"></p>
 
-The libraries used to build this application are: 
+The libraries used to build this application are:  
 Numpy, Pandas, Regex, NLTK, Pickle, Scit-learn, Pillow, Matplotlib, Google-Play-Scrapper, Googlesearch, Shutil, OS, and tabulate.
 
 Below are the various classification models applied to the dataset are compared using accuracy_score r2_score:
 | Regression Models  | Accuracy Score | R2 Score |
 | ------------- | ------------- | ------------- |
 | Random Forest Classification  | 90.11 | 0.6030 |
-| ------------- | ------------- | ------------- |
 | Linear Support Vector Classification  | 91.11 | 0.6742 |
-| ------------- | ------------- | ------------- |
 | Logistic Regression  | 91.45 | 0.6796 |
 
 accuracy_score is the percentage of the success of a model to predcit the independent attribute and r2_score is a statistical measure that represents the goodness of fit of a regression model. The ideal value for r2_score is 1, its range is from -1 to 1. Some other methods to determine the success of a classification model are mean_squared_error, mean_absolute_error, confusion_matrix, calssification_report. 
