@@ -131,7 +131,7 @@ def displayTable():
             df2=df.copy(deep=True)
             df=cleanDf(df,'REVIEW')
             
-            model = pickle.load(open('LR_model.pkl','rb'))
+            model = pickle.load(open('model.pkl','rb'))
             reviews=bagOfWords(df['REVIEW'])
             sentiments=model.predict(reviews)
             df['SENTIMENT']=df2['SENTIMENT']=sentiments
