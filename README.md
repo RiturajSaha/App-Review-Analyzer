@@ -7,7 +7,6 @@ In this respository, an App Review Analyzer application is created having a GUI 
 Below are the screenshots of the application:
 <p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/1.png" height=500 width="800"></p>
 <p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/2.png" height=500 width="800"></p>
-<p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/3.png" height=500 width="800"></p>
 <p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/4.png" height=500 width="800"></p>
 
 The Natural Language Processing model was creted by training on a dataset obtained from [Google Play Store Apps](https://www.kaggle.com/lava18/google-play-store-apps), then cleaning and processing it, applying the Bag of Words model to it and finally using various classifcation models, in order to achieve the highest accuracy. The  model was trained in Google Colaboratory and the application was developed in Spyder,
@@ -17,7 +16,7 @@ Numpy, Pandas, Regex, NLTK, Pickle, Scit-learn, Pillow, Matplotlib, Google-Play-
 
 Out of all the classification models applied to the dataset, Random Forest Classifier yields the highest accuracy of 90.11% and r2_scoew of 0.603, below are the other attributes of the model:  
 
-<p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/1.png" height=500 width="800"></p>
+<p align="center"><img src="https://github.com/RiturajSaha/App-Review-Analyzer/blob/main/Screenshots/acc.png" height=500 width="800"></p>
 
 accuracy_score is the percentage of the success of a model to predcit the independent attribute and r2_score is a statistical measure that represents the goodness of fit of a regression model. The ideal value for r2_score is 1, its range is from -1 to 1. Some other methods to determine the success of a classification model are mean_squared_error, mean_absolute_error, confusion_matrix, calssification_report. 
 
